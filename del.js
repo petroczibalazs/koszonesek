@@ -1,6 +1,10 @@
 const del = () => {
-
-    console.log("Dél van! Itt az idő egy kiadós ebédhez!");
+    const k = `
+    \n ----------------------------------------------------------\n
+    -------- Dél van! Itt az idő egy kiadós ebédhez! --------------\n
+    --------------------------------------------------------------\n
+    `;
+    console.log(k);
 }
 
 module.exports = del;
