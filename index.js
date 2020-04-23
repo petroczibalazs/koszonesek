@@ -1,9 +1,10 @@
-const este = require('este');
-const del = require('del');
-const reggel = require('del');
+const este = require('./este');
+const del = require('./del');
+const reggel = require('./reggel');
+
 
 module.exports = {
-    'este' : este,
-    'del' : del,
-    'reggel' : reggel
+    este,
+    del,
+    reggel
 }
