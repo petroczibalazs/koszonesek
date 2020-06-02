@@ -10,11 +10,17 @@
     "type": "git",
     "url": "git+https://github.com/petroczibalazs/koszonesek.git"
   },
+  "bin": {
+    "koszonj": "./bin/koszonesek"
+  },
   "keywords": [],
-  "author": "",
+  "author": "Balázs Petróczi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/petroczibalazs/koszonesek/issues"
   },
-  "homepage": "https://github.com/petroczibalazs/koszonesek#readme"
+  "homepage": "https://github.com/petroczibalazs/koszonesek#readme",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
 }
