@@ -3,8 +3,6 @@ const del = require('./cmds/delben');
 const reggel = require('./cmds/reggel');
 
 const minimist = require('minimist');
-const PATH  = require('path');
-console.log(PATH);
 
 module.exports = () => {
 
