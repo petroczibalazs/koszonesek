@@ -3,6 +3,8 @@ const del = require('./cmds/delben');
 const reggel = require('./cmds/reggel');
 
 const minimist = require('minimist');
+const PATH  = require('path');
+console.log(PATH);
 
 module.exports = () => {
 
@@ -18,7 +20,7 @@ if(args.v || args.version)  { cmd = 'version'}
             require('./cmds/reggel')(args);
             break;
         case 'delben':
-            require('/cmds/delben')(args);
+            require('/cmds/del')(args);
             break;
         case 'este':
             require('./cmds/este')(args);
