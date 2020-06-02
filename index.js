@@ -20,7 +20,7 @@ if(args.v || args.version)  { cmd = 'version'}
             require('./cmds/reggel')(args);
             break;
         case 'delben':
-            require('/cmds/del')(args);
+            require('/cmds/delben')(args);
             break;
         case 'este':
             require('./cmds/este')(args);
