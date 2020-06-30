@@ -10,9 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/petroczibalazs/koszonesek.git"
   },
-  "bin": {
-    "koszonj": "./bin/koszonesek"
-  },
   "keywords": [],
   "author": "Balázs Petróczi",
   "license": "ISC",
