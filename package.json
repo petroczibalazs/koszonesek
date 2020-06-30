@@ -1,23 +1,48 @@
 {
-  "name": "koszonesek",
-  "version": "1.0.2",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_from": "github:petroczibalazs/koszonesek",
+  "_id": "koszonesek@1.0.2",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/koszonesek",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "petroczibalazs/koszonesek",
+    "rawSpec": "petroczibalazs/koszonesek",
+    "saveSpec": "github:petroczibalazs/koszonesek",
+    "fetchSpec": null,
+    "gitCommittish": null
   },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "github:petroczibalazs/koszonesek#666485560ca4d51e96071209f71a6131dfd0f3c3",
+  "_spec": "petroczibalazs/koszonesek",
+  "_where": "C:\\DEVELOPMENT\\use-koszonesek",
+  "author": {
+    "name": "Balázs Petróczi"
+  },
+  "bugs": {
+    "url": "https://github.com/petroczibalazs/koszonesek/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "minimist": "^1.2.5"
+  },
+  "deprecated": false,
+  "description": "",
+  "homepage": "https://github.com/petroczibalazs/koszonesek#readme",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "koszonesek",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/petroczibalazs/koszonesek.git"
   },
-  "keywords": [],
-  "author": "Balázs Petróczi",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/petroczibalazs/koszonesek/issues"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/petroczibalazs/koszonesek#readme",
-  "dependencies": {
-    "minimist": "^1.2.5"
-  }
+  "version": "1.0.2"
 }
